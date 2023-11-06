@@ -175,3 +175,17 @@ footer{
     margin-top: 10rem;
     padding: 1rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .article-container article {
+        width: calc(100% - 40px);
+    }
+
+    article {
+          margin-bottom: 6rem;
+    }
+
+    footer {
+        margin-top: 3rem;
+    }
+  }
